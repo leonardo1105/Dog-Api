@@ -1,10 +1,10 @@
 import React from 'react';
-import Rotas from './Rotas';
+import { Link } from 'react-router-dom';
 
 export default function App(){
   return(
     <>
-    <Rotas/>
+    <Link to="/dogpage"><p>Dog Page</p></Link>
     </>
   )
 }
